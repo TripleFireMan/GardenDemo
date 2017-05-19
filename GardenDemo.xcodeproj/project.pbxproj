@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2893371EBEC6020000A4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2893361EBEC6020000A4E7 /* AppDelegate.m */; };
+		4C28933D1EBEC6020000A4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C28933B1EBEC6020000A4E7 /* Main.storyboard */; };
+		4C28933F1EBEC6020000A4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C28933E1EBEC6020000A4E7 /* Assets.xcassets */; };
+		4C2893421EBEC6020000A4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2893401EBEC6020000A4E7 /* LaunchScreen.storyboard */; };
+		4C28934D1EBEC6020000A4E7 /* GardenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C28934C1EBEC6020000A4E7 /* GardenDemoTests.m */; };
+		4C2893581EBEC6020000A4E7 /* GardenDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2893571EBEC6020000A4E7 /* GardenDemoUITests.m */; };
+		4C38D9BA1ECB5829002833F3 /* CYGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9A71ECB5829002833F3 /* CYGradientView.m */; };
+		4C38D9BB1ECB5829002833F3 /* CYPetal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9A91ECB5829002833F3 /* CYPetal.m */; };
+		4C38D9BC1ECB5829002833F3 /* CYShapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9AB1ECB5829002833F3 /* CYShapedView.m */; };
+		4C38D9BD1ECB5829002833F3 /* CYSmile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9AD1ECB5829002833F3 /* CYSmile.m */; };
+		4C38D9BF1ECB5829002833F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9B11ECB5829002833F3 /* ViewController.m */; };
+		4C38D9C01ECB5829002833F3 /* CYFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9B41ECB5829002833F3 /* CYFlower.m */; };
+		4C38D9C11ECB5829002833F3 /* CYStem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9B61ECB5829002833F3 /* CYStem.m */; };
+		4C38D9C21ECB5829002833F3 /* CYSunShine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9B91ECB5829002833F3 /* CYSunShine.m */; };
+		4C38D9C71ECB5BEF002833F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9C61ECB5BEF002833F3 /* main.m */; };
+		4C38D9CA1ECB5C22002833F3 /* CYFlowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9C91ECB5C22002833F3 /* CYFlowerViewController.m */; };
+		4C38D9CD1ECB61AD002833F3 /* UIView+CYCompositedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38D9CC1ECB61AD002833F3 /* UIView+CYCompositedView.m */; };
+		4C4273E61ECF4C5000544C7F /* CYBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4273E51ECF4C5000544C7F /* CYBird.m */; };
+		4C577BF91ECDF6FF00C5E046 /* CYCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C577BF81ECDF6FF00C5E046 /* CYCloud.m */; };
+		4C67F9A01ECCA56600EE228D /* CYGradientedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C67F99F1ECCA56600EE228D /* CYGradientedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2893491EBEC6020000A4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2893271EBEC6010000A4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C28932E1EBEC6020000A4E7;
+			remoteInfo = GardenDemo;
+		};
+		4C2893541EBEC6020000A4E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2893271EBEC6010000A4E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C28932E1EBEC6020000A4E7;
+			remoteInfo = GardenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C28932F1EBEC6020000A4E7 /* GardenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2893331EBEC6020000A4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2893351EBEC6020000A4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C2893361EBEC6020000A4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C28933C1EBEC6020000A4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C28933E1EBEC6020000A4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2893411EBEC6020000A4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2893431EBEC6020000A4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2893481EBEC6020000A4E7 /* GardenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C28934C1EBEC6020000A4E7 /* GardenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GardenDemoTests.m; sourceTree = "<group>"; };
+		4C28934E1EBEC6020000A4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2893531EBEC6020000A4E7 /* GardenDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2893571EBEC6020000A4E7 /* GardenDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GardenDemoUITests.m; sourceTree = "<group>"; };
+		4C2893591EBEC6020000A4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C38D9A61ECB5829002833F3 /* CYGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGradientView.h; sourceTree = "<group>"; };
+		4C38D9A71ECB5829002833F3 /* CYGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGradientView.m; sourceTree = "<group>"; };
+		4C38D9A81ECB5829002833F3 /* CYPetal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPetal.h; sourceTree = "<group>"; };
+		4C38D9A91ECB5829002833F3 /* CYPetal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPetal.m; sourceTree = "<group>"; };
+		4C38D9AA1ECB5829002833F3 /* CYShapedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYShapedView.h; sourceTree = "<group>"; };
+		4C38D9AB1ECB5829002833F3 /* CYShapedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYShapedView.m; sourceTree = "<group>"; };
+		4C38D9AC1ECB5829002833F3 /* CYSmile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYSmile.h; sourceTree = "<group>"; };
+		4C38D9AD1ECB5829002833F3 /* CYSmile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYSmile.m; sourceTree = "<group>"; };
+		4C38D9B01ECB5829002833F3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C38D9B11ECB5829002833F3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C38D9B31ECB5829002833F3 /* CYFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFlower.h; sourceTree = "<group>"; };
+		4C38D9B41ECB5829002833F3 /* CYFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFlower.m; sourceTree = "<group>"; };
+		4C38D9B51ECB5829002833F3 /* CYStem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYStem.h; sourceTree = "<group>"; };
+		4C38D9B61ECB5829002833F3 /* CYStem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYStem.m; sourceTree = "<group>"; };
+		4C38D9B81ECB5829002833F3 /* CYSunShine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYSunShine.h; sourceTree = "<group>"; };
+		4C38D9B91ECB5829002833F3 /* CYSunShine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYSunShine.m; sourceTree = "<group>"; };
+		4C38D9C61ECB5BEF002833F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C38D9C81ECB5C22002833F3 /* CYFlowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFlowerViewController.h; sourceTree = "<group>"; };
+		4C38D9C91ECB5C22002833F3 /* CYFlowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFlowerViewController.m; sourceTree = "<group>"; };
+		4C38D9CB1ECB61AD002833F3 /* UIView+CYCompositedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYCompositedView.h"; sourceTree = "<group>"; };
+		4C38D9CC1ECB61AD002833F3 /* UIView+CYCompositedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYCompositedView.m"; sourceTree = "<group>"; };
+		4C4273E41ECF4C5000544C7F /* CYBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBird.h; sourceTree = "<group>"; };
+		4C4273E51ECF4C5000544C7F /* CYBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBird.m; sourceTree = "<group>"; };
+		4C577BF71ECDF6FF00C5E046 /* CYCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYCloud.h; sourceTree = "<group>"; };
+		4C577BF81ECDF6FF00C5E046 /* CYCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYCloud.m; sourceTree = "<group>"; };
+		4C67F99E1ECCA56600EE228D /* CYGradientedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGradientedView.h; sourceTree = "<group>"; };
+		4C67F99F1ECCA56600EE228D /* CYGradientedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGradientedView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C28932C1EBEC6020000A4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2893451EBEC6020000A4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2893501EBEC6020000A4E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2893261EBEC6010000A4E7 = {
+			isa = PBXGroup;
+			children = (
+				4C2893311EBEC6020000A4E7 /* GardenDemo */,
+				4C28934B1EBEC6020000A4E7 /* GardenDemoTests */,
+				4C2893561EBEC6020000A4E7 /* GardenDemoUITests */,
+				4C2893301EBEC6020000A4E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2893301EBEC6020000A4E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C28932F1EBEC6020000A4E7 /* GardenDemo.app */,
+				4C2893481EBEC6020000A4E7 /* GardenDemoTests.xctest */,
+				4C2893531EBEC6020000A4E7 /* GardenDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2893311EBEC6020000A4E7 /* GardenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C67F99D1ECCA55100EE228D /* GradientView */,
+				4C38D9A51ECB5829002833F3 /* Components */,
+				4C38D9AE1ECB5829002833F3 /* Controller */,
+				4C38D9B21ECB5829002833F3 /* Flowers */,
+				4C38D9B71ECB5829002833F3 /* Sunshine */,
+				4C2893351EBEC6020000A4E7 /* AppDelegate.h */,
+				4C2893361EBEC6020000A4E7 /* AppDelegate.m */,
+				4C28933B1EBEC6020000A4E7 /* Main.storyboard */,
+				4C28933E1EBEC6020000A4E7 /* Assets.xcassets */,
+				4C2893401EBEC6020000A4E7 /* LaunchScreen.storyboard */,
+				4C2893431EBEC6020000A4E7 /* Info.plist */,
+				4C2893321EBEC6020000A4E7 /* Supporting Files */,
+			);
+			path = GardenDemo;
+			sourceTree = "<group>";
+		};
+		4C2893321EBEC6020000A4E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2893331EBEC6020000A4E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C28934B1EBEC6020000A4E7 /* GardenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C28934C1EBEC6020000A4E7 /* GardenDemoTests.m */,
+				4C28934E1EBEC6020000A4E7 /* Info.plist */,
+			);
+			path = GardenDemoTests;
+			sourceTree = "<group>";
+		};
+		4C2893561EBEC6020000A4E7 /* GardenDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2893571EBEC6020000A4E7 /* GardenDemoUITests.m */,
+				4C2893591EBEC6020000A4E7 /* Info.plist */,
+			);
+			path = GardenDemoUITests;
+			sourceTree = "<group>";
+		};
+		4C38D9A51ECB5829002833F3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4C38D9A61ECB5829002833F3 /* CYGradientView.h */,
+				4C38D9A71ECB5829002833F3 /* CYGradientView.m */,
+				4C38D9A81ECB5829002833F3 /* CYPetal.h */,
+				4C38D9A91ECB5829002833F3 /* CYPetal.m */,
+				4C38D9AA1ECB5829002833F3 /* CYShapedView.h */,
+				4C38D9AB1ECB5829002833F3 /* CYShapedView.m */,
+				4C38D9AC1ECB5829002833F3 /* CYSmile.h */,
+				4C38D9AD1ECB5829002833F3 /* CYSmile.m */,
+				4C38D9CB1ECB61AD002833F3 /* UIView+CYCompositedView.h */,
+				4C38D9CC1ECB61AD002833F3 /* UIView+CYCompositedView.m */,
+				4C577BF71ECDF6FF00C5E046 /* CYCloud.h */,
+				4C577BF81ECDF6FF00C5E046 /* CYCloud.m */,
+				4C4273E41ECF4C5000544C7F /* CYBird.h */,
+				4C4273E51ECF4C5000544C7F /* CYBird.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4C38D9AE1ECB5829002833F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C38D9B01ECB5829002833F3 /* ViewController.h */,
+				4C38D9B11ECB5829002833F3 /* ViewController.m */,
+				4C38D9C81ECB5C22002833F3 /* CYFlowerViewController.h */,
+				4C38D9C91ECB5C22002833F3 /* CYFlowerViewController.m */,
+				4C38D9C61ECB5BEF002833F3 /* main.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C38D9B21ECB5829002833F3 /* Flowers */ = {
+			isa = PBXGroup;
+			children = (
+				4C38D9B31ECB5829002833F3 /* CYFlower.h */,
+				4C38D9B41ECB5829002833F3 /* CYFlower.m */,
+				4C38D9B51ECB5829002833F3 /* CYStem.h */,
+				4C38D9B61ECB5829002833F3 /* CYStem.m */,
+			);
+			path = Flowers;
+			sourceTree = "<group>";
+		};
+		4C38D9B71ECB5829002833F3 /* Sunshine */ = {
+			isa = PBXGroup;
+			children = (
+				4C38D9B81ECB5829002833F3 /* CYSunShine.h */,
+				4C38D9B91ECB5829002833F3 /* CYSunShine.m */,
+			);
+			path = Sunshine;
+			sourceTree = "<group>";
+		};
+		4C67F99D1ECCA55100EE228D /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				4C67F99E1ECCA56600EE228D /* CYGradientedView.h */,
+				4C67F99F1ECCA56600EE228D /* CYGradientedView.m */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C28932E1EBEC6020000A4E7 /* GardenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C28935C1EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemo" */;
+			buildPhases = (
+				4C28932B1EBEC6020000A4E7 /* Sources */,
+				4C28932C1EBEC6020000A4E7 /* Frameworks */,
+				4C28932D1EBEC6020000A4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenDemo;
+			productName = GardenDemo;
+			productReference = 4C28932F1EBEC6020000A4E7 /* GardenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2893471EBEC6020000A4E7 /* GardenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C28935F1EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemoTests" */;
+			buildPhases = (
+				4C2893441EBEC6020000A4E7 /* Sources */,
+				4C2893451EBEC6020000A4E7 /* Frameworks */,
+				4C2893461EBEC6020000A4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C28934A1EBEC6020000A4E7 /* PBXTargetDependency */,
+			);
+			name = GardenDemoTests;
+			productName = GardenDemoTests;
+			productReference = 4C2893481EBEC6020000A4E7 /* GardenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C2893521EBEC6020000A4E7 /* GardenDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2893621EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemoUITests" */;
+			buildPhases = (
+				4C28934F1EBEC6020000A4E7 /* Sources */,
+				4C2893501EBEC6020000A4E7 /* Frameworks */,
+				4C2893511EBEC6020000A4E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2893551EBEC6020000A4E7 /* PBXTargetDependency */,
+			);
+			name = GardenDemoUITests;
+			productName = GardenDemoUITests;
+			productReference = 4C2893531EBEC6020000A4E7 /* GardenDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2893271EBEC6010000A4E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cheng.yan;
+				TargetAttributes = {
+					4C28932E1EBEC6020000A4E7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					4C2893471EBEC6020000A4E7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C28932E1EBEC6020000A4E7;
+					};
+					4C2893521EBEC6020000A4E7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C28932E1EBEC6020000A4E7;
+					};
+				};
+			};
+			buildConfigurationList = 4C28932A1EBEC6010000A4E7 /* Build configuration list for PBXProject "GardenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2893261EBEC6010000A4E7;
+			productRefGroup = 4C2893301EBEC6020000A4E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C28932E1EBEC6020000A4E7 /* GardenDemo */,
+				4C2893471EBEC6020000A4E7 /* GardenDemoTests */,
+				4C2893521EBEC6020000A4E7 /* GardenDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C28932D1EBEC6020000A4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2893421EBEC6020000A4E7 /* LaunchScreen.storyboard in Resources */,
+				4C28933F1EBEC6020000A4E7 /* Assets.xcassets in Resources */,
+				4C28933D1EBEC6020000A4E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2893461EBEC6020000A4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2893511EBEC6020000A4E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C28932B1EBEC6020000A4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2893371EBEC6020000A4E7 /* AppDelegate.m in Sources */,
+				4C38D9CA1ECB5C22002833F3 /* CYFlowerViewController.m in Sources */,
+				4C38D9BA1ECB5829002833F3 /* CYGradientView.m in Sources */,
+				4C38D9C21ECB5829002833F3 /* CYSunShine.m in Sources */,
+				4C67F9A01ECCA56600EE228D /* CYGradientedView.m in Sources */,
+				4C38D9C01ECB5829002833F3 /* CYFlower.m in Sources */,
+				4C38D9BF1ECB5829002833F3 /* ViewController.m in Sources */,
+				4C577BF91ECDF6FF00C5E046 /* CYCloud.m in Sources */,
+				4C38D9C11ECB5829002833F3 /* CYStem.m in Sources */,
+				4C38D9BD1ECB5829002833F3 /* CYSmile.m in Sources */,
+				4C4273E61ECF4C5000544C7F /* CYBird.m in Sources */,
+				4C38D9CD1ECB61AD002833F3 /* UIView+CYCompositedView.m in Sources */,
+				4C38D9BB1ECB5829002833F3 /* CYPetal.m in Sources */,
+				4C38D9C71ECB5BEF002833F3 /* main.m in Sources */,
+				4C38D9BC1ECB5829002833F3 /* CYShapedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2893441EBEC6020000A4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C28934D1EBEC6020000A4E7 /* GardenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C28934F1EBEC6020000A4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2893581EBEC6020000A4E7 /* GardenDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C28934A1EBEC6020000A4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C28932E1EBEC6020000A4E7 /* GardenDemo */;
+			targetProxy = 4C2893491EBEC6020000A4E7 /* PBXContainerItemProxy */;
+		};
+		4C2893551EBEC6020000A4E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C28932E1EBEC6020000A4E7 /* GardenDemo */;
+			targetProxy = 4C2893541EBEC6020000A4E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C28933B1EBEC6020000A4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C28933C1EBEC6020000A4E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2893401EBEC6020000A4E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2893411EBEC6020000A4E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C28935A1EBEC6020000A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C28935B1EBEC6020000A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C28935D1EBEC6020000A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GardenDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C28935E1EBEC6020000A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GardenDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C2893601EBEC6020000A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GardenDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenDemo.app/GardenDemo";
+			};
+			name = Debug;
+		};
+		4C2893611EBEC6020000A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GardenDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenDemo.app/GardenDemo";
+			};
+			name = Release;
+		};
+		4C2893631EBEC6020000A4E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GardenDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GardenDemo;
+			};
+			name = Debug;
+		};
+		4C2893641EBEC6020000A4E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GardenDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenyan.GardenDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GardenDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C28932A1EBEC6010000A4E7 /* Build configuration list for PBXProject "GardenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C28935A1EBEC6020000A4E7 /* Debug */,
+				4C28935B1EBEC6020000A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C28935C1EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C28935D1EBEC6020000A4E7 /* Debug */,
+				4C28935E1EBEC6020000A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C28935F1EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2893601EBEC6020000A4E7 /* Debug */,
+				4C2893611EBEC6020000A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2893621EBEC6020000A4E7 /* Build configuration list for PBXNativeTarget "GardenDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2893631EBEC6020000A4E7 /* Debug */,
+				4C2893641EBEC6020000A4E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2893271EBEC6010000A4E7 /* Project object */;
+}
